@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <style>
+      a:link {
+        text-decoration: none;
+        color:black ;
+      }
+      a:visited {
+        text-decoration: none;
+        color:black ;
+      }
+      a:hover {
+        text-decoration: none;
+        color:black;
+      }
+      a:active {
+        text-decoration: none;
+        color:black ;
+      }
+      .HEAD {
+        padding: 1px;
+        margin: 0px 0px;
+        background-image:linear-gradient(#FEEAFA,white);
+        font-family:'Baskerville Old Face' ;
+        text-align: center;
+        border-radius:5px;
+      }
+      .form{text-align: center;}
+      input[type=text]:focus {
+        background-image:linear-gradient(white,white);
+      }
+      .GFG{
+        transition-duration: 0.5s;
+      }
+      .GFG:hover {
+        background-image:linear-gradient(#dcea9a,#f4b8e8); 
+        color: black;
+        font-size: 18px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border-radius: 4px;
+      }
+      #grad {
+        background-image:linear-gradient(#FEEAFA,white);}
+    </style>
+  </head>
+<body bgcolor="white">
+  <b>
+    <div class="HEAD" id="grad"><h1>STUDENTS INFORMATION</h1>
+    </div> <hr style="height:2px;border-width:0;color:gray;background-color:gray "/>
+<div class="form">
+    <fieldset>
+      <form method="post" action="displaystudent.php">
+        <tr>
+          <th>Student's Name :</th>  
+          <td>
+            <input type="text" placeholder="First Name" style=" width: 30%;
+            padding: 3px 3px;
+            margin: 2px 0;
+            box-sizing :border-box; border-radius: 4px ;border: none;
+            border-bottom: 2px solid black";/>
+          </td>
+          <br />
+        </tr>
+        
+        <br />
+        <tr>
+          <td>Roll Number:</td>
+          <td>
+            <input type="text" placeholder="Roll Number"style=" width: 30%;
+            padding: 3px 3px;
+            margin: 2px 0;
+            box-sizing :border-box; border-radius: 4px ;border: none;
+            border-bottom: 2px solid black"; />
+            <br />
+          </td>
+        </tr>
+        <hr>
+        <button class="GFG" >Submit</button>
+        <button class="GFG"><a href="studentpromt.html" target="Body" text-decoration="none">Cancel</a></button>
+      </form>
+    </fieldset></div>
+  </body>
+</html>

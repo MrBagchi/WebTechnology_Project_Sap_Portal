@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SIDE PANEL</title>
+    <style>
+      * {
+        background-color:WHITE;
+      }
+
+      .head {
+        font-family: "sans-serif";
+        border-radius: 2px;
+        font-size: 18px;
+        
+      }
+      .GFG {
+         background-image:linear-gradient(#DDE5B6,#FEEAFA);
+
+        border: 3px solid rgb(29, 16, 16);
+        color: rgb(0, 0, 0);
+        padding: 5px 2px;
+        text-align: center;
+        padding: 8px 6px;
+        display: inline-block;
+        font-size: 14px;
+        margin: 10px 6px;
+        width: 70%;
+        border-radius: 9px;
+        transition-duration: 0.5s;
+        cursor: pointer;
+      }
+      .GFG:hover {
+       
+        background-image:linear-gradient(#dcea9a,#f4b8e8);
+        color:black;
+
+
+        font-size: 16px;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+        border-radius: 3px;
+      }
+      .btn {
+        animation: wiggle 2s linear infinite;
+      }
+
+      
+      @keyframes wiggle {
+        0%,
+        7% {
+          transform: rotateZ(0);
+        }
+        15% {
+          transform: rotateZ(-8deg);
+        }
+        20% {
+          transform: rotateZ(6deg);
+        }
+        25% {
+          transform: rotateZ(-5deg);
+        }
+        30% {
+          transform: rotateZ(3deg);
+        }
+        35% {
+          transform: rotateZ(-2deg);
+        }
+        40% ,
+        100% {
+          transform: rotateZ(0);
+        }
+      }
+      .btn {
+       background-image:linear-gradient(#DDE5B6,#FEEAFA);
+        font-family: "Baskerville Old Face";
+        border: 3px solid BLACK;
+        color:BLACK;
+        padding: 5px 2px;
+        text-align: center;
+        padding: 8px 6px;
+        display: inline-block;
+        font-size: 17px;
+        margin: 10px 6px;
+        width: 90%;
+        border-radius: 10px;
+        transition-duration: 0.5s;
+        cursor: pointer;
+      }
+      
+      .btn:hover {
+        background-image:linear-gradient(#dcea9a,#f4b8e8);
+        color:black;
+
+        font-size: 18px;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+        border-radius: 5px;
+      }
+      /* width */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+
+      ::-webkit-scrollbar-track {
+        background:#A6A2A1;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background:#DDE5B6;
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+        background:#DDE5B6;
+        border-radius: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="SIDEPANEL">
+      <div class="head">
+        <h4
+          align="center"
+          
+        >
+          SERVICES
+          <hr
+            style=
+              height:2px;
+              border-width: 0;
+              color:white;
+              
+             background-color:#FFC8DD;
+"
+          />
+        </h4>
+      </div>
+
+      <ul type="square">
+        <li>
+          <a href="BODY.html" target="Body" title="About Us">
+            <button class="GFG">About Us</button>
+          </a>
+        </li>
+        <li>
+          <a href="Alumni.html" target="Body" title="Alumni">
+            <button class="GFG">Alumni</button></a
+          >
+        </li>
+        <li>
+          <a href="studentpromt.html" target="Body" title="Student's Info"
+            ><button class="GFG">Student's Info</button></a
+          >
+        </li>
+        <li>
+          <a
+            href="Academic.html"
+            target="Body"
+            title="Academics"
+            ><button class="GFG">Academics</button></a
+          >
+        </li>
+        <li>
+          <a href="holidaylist.html" target="Body" title="Notices"
+            ><button class="GFG">Notices</button></a
+          >
+        </li>
+
+        <li>
+          <a href="contact.html" target="Body" title="Contact Us"
+            ><button class="GFG">Contact Us</button></a
+          >
+        </li>
+      </ul>
+      <hr style="height: 1px;
+      border-width: 0;
+      color:black;
+      background-image:linear-gradient(yellow,pink);"/>
+
+      <a href="Contributers.html" target="Body" title="Credit: Group details">
+        <button class="btn"><b>Credits</b></button>
+      </a>
+    </div>
+  </body>
+</html>
