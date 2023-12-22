@@ -6,8 +6,8 @@
 > Technologies used: HTML, CSS3, JavaScript, Bootstrap, PHP, NoSQL(XAMPP).
 
 Requirements:
-Xampp Server
-Notepad
+>Xampp Server
+>Notepad
 
 How to Use?
 1) Download all files first.
