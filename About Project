@@ -1,4 +1,12 @@
-About This Project
+About This Project:
+An ERP portal, like the well-known SAP ERP portal, acts as a central hub for an organization, streamlining operations and information flow. Users across departments can access a unified platform to manage tasks, access data, and collaborate. This translates to benefits for both users and the organization:
+-> User Benefits: Simplified workflows, real-time data access for informed decisions, improved visibility into tasks and     
+   processes, increased collaboration with colleagues.
+-> Organizational Benefits: Enhanced efficiency and productivity, improved data accuracy and consistency, better decision- 
+   making with real-time insights, streamlined communication and collaboration, cost savings through automation.
+
+................................................................................................................................................................................................................................................................
+
 >This Project was developed using HTML,CSS,Javascript and Php,NoSQL technology stack.
 >Main aim of this project is to maintain and operate a student database , where each individual can fetch data of them from the database usign Php and NoSQL.
 >Internal and inline CSS is used wherever required.
